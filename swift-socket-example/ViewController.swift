@@ -66,7 +66,10 @@ class ViewController: UIViewController, UITextViewDelegate {
                 // tableviewのスクロールを一番下まで動かす
                 UIView.animateWithDuration(0.2, delay: 3.0, options: nil, animations: {}, completion: {(finished) -> Void in
                     let indexPath = NSIndexPath(forRow:(self.tableView.numberOfRowsInSection(0) as Int - 1), inSection: self.tableView.numberOfSections()-1 as Int)
-                    self.tableView.scrollToRowAtIndexPath(indexPath, atScrollPosition: UITableViewScrollPosition.Top, animated: true)
+                    println(indexPath.row)
+                    if (indexPath != nil && indexPath.row >= 0) {
+                        self.tableView.scrollToRowAtIndexPath(indexPath, atScrollPosition: UITableViewScrollPosition.Top, animated: true)
+                    }
                     
                 })
             })
