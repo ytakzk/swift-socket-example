@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301252C38F02ED90FA3BDA1E /* libPods-swift-socket-exampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE30E791ED65867B147DB4B /* libPods-swift-socket-exampleTests.a */; };
+		5238F6B31A493B950000A0CA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238F6B11A493B950000A0CA /* SettingsViewController.swift */; };
+		5238F6B61A495FAF0000A0CA /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238F6B51A495FAF0000A0CA /* MyUtils.swift */; };
+		5244C3771A47C059000A0C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244C3761A47C059000A0C43 /* AppDelegate.swift */; };
+		5244C3791A47C059000A0C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244C3781A47C059000A0C43 /* ViewController.swift */; };
+		5244C37C1A47C059000A0C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5244C37A1A47C059000A0C43 /* Main.storyboard */; };
+		5244C37E1A47C059000A0C43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5244C37D1A47C059000A0C43 /* Images.xcassets */; };
+		5244C3811A47C059000A0C43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5244C37F1A47C059000A0C43 /* LaunchScreen.xib */; };
+		5244C38D1A47C059000A0C43 /* swift_socket_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244C38C1A47C059000A0C43 /* swift_socket_exampleTests.swift */; };
+		5244C39D1A4827B0000A0C43 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244C39C1A4827B0000A0C43 /* MessageCell.swift */; };
+		5244C39F1A4828FB000A0C43 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244C39E1A4828FB000A0C43 /* MessageModel.swift */; };
+		6BD4A0806E49005ADC267178 /* libPods-swift-socket-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E05E6F7875B678312655F0B9 /* libPods-swift-socket-example.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5244C3871A47C059000A0C43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5244C3691A47C059000A0C43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5244C3701A47C059000A0C43;
+			remoteInfo = "swift-socket-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1873111FC67175E7867757F4 /* Pods-swift-socket-exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-socket-exampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-socket-exampleTests/Pods-swift-socket-exampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		1EA48EAFE4791237B01099D6 /* Pods-swift-socket-exampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-socket-exampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-socket-exampleTests/Pods-swift-socket-exampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5238F6B11A493B950000A0CA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5238F6B51A495FAF0000A0CA /* MyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
+		5244C3711A47C059000A0C43 /* swift-socket-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-socket-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5244C3751A47C059000A0C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5244C3761A47C059000A0C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5244C3781A47C059000A0C43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5244C37B1A47C059000A0C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5244C37D1A47C059000A0C43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5244C3801A47C059000A0C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5244C3861A47C059000A0C43 /* swift-socket-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-socket-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5244C38B1A47C059000A0C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5244C38C1A47C059000A0C43 /* swift_socket_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_socket_exampleTests.swift; sourceTree = "<group>"; };
+		5244C3961A47C11F000A0C43 /* swift-socket-example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-socket-example-Bridging-Header.h"; sourceTree = "<group>"; };
+		5244C39C1A4827B0000A0C43 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		5244C39E1A4828FB000A0C43 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		8DA3626A91371AE73AC028B9 /* Pods-swift-socket-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-socket-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-socket-example/Pods-swift-socket-example.debug.xcconfig"; sourceTree = "<group>"; };
+		989B0079CFDD30029D13E14F /* Pods-swift-socket-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-socket-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-socket-example/Pods-swift-socket-example.release.xcconfig"; sourceTree = "<group>"; };
+		9EE30E791ED65867B147DB4B /* libPods-swift-socket-exampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swift-socket-exampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05E6F7875B678312655F0B9 /* libPods-swift-socket-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swift-socket-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5244C36E1A47C059000A0C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD4A0806E49005ADC267178 /* libPods-swift-socket-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5244C3831A47C059000A0C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301252C38F02ED90FA3BDA1E /* libPods-swift-socket-exampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BC5A9C74A27254F6A2D4483 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DA3626A91371AE73AC028B9 /* Pods-swift-socket-example.debug.xcconfig */,
+				989B0079CFDD30029D13E14F /* Pods-swift-socket-example.release.xcconfig */,
+				1EA48EAFE4791237B01099D6 /* Pods-swift-socket-exampleTests.debug.xcconfig */,
+				1873111FC67175E7867757F4 /* Pods-swift-socket-exampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5244C3681A47C059000A0C43 = {
+			isa = PBXGroup;
+			children = (
+				5244C3731A47C059000A0C43 /* swift-socket-example */,
+				5244C3891A47C059000A0C43 /* swift-socket-exampleTests */,
+				5244C3721A47C059000A0C43 /* Products */,
+				2BC5A9C74A27254F6A2D4483 /* Pods */,
+				DFC3F71E5C9ABD84A3B08B4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5244C3721A47C059000A0C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5244C3711A47C059000A0C43 /* swift-socket-example.app */,
+				5244C3861A47C059000A0C43 /* swift-socket-exampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5244C3731A47C059000A0C43 /* swift-socket-example */ = {
+			isa = PBXGroup;
+			children = (
+				5244C3761A47C059000A0C43 /* AppDelegate.swift */,
+				5244C3781A47C059000A0C43 /* ViewController.swift */,
+				5244C39C1A4827B0000A0C43 /* MessageCell.swift */,
+				5244C39E1A4828FB000A0C43 /* MessageModel.swift */,
+				5238F6B11A493B950000A0CA /* SettingsViewController.swift */,
+				5244C37A1A47C059000A0C43 /* Main.storyboard */,
+				5238F6B51A495FAF0000A0CA /* MyUtils.swift */,
+				5244C37D1A47C059000A0C43 /* Images.xcassets */,
+				5244C37F1A47C059000A0C43 /* LaunchScreen.xib */,
+				5244C3741A47C059000A0C43 /* Supporting Files */,
+				5244C3961A47C11F000A0C43 /* swift-socket-example-Bridging-Header.h */,
+			);
+			path = "swift-socket-example";
+			sourceTree = "<group>";
+		};
+		5244C3741A47C059000A0C43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5244C3751A47C059000A0C43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5244C3891A47C059000A0C43 /* swift-socket-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5244C38C1A47C059000A0C43 /* swift_socket_exampleTests.swift */,
+				5244C38A1A47C059000A0C43 /* Supporting Files */,
+			);
+			path = "swift-socket-exampleTests";
+			sourceTree = "<group>";
+		};
+		5244C38A1A47C059000A0C43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5244C38B1A47C059000A0C43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFC3F71E5C9ABD84A3B08B4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E05E6F7875B678312655F0B9 /* libPods-swift-socket-example.a */,
+				9EE30E791ED65867B147DB4B /* libPods-swift-socket-exampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5244C3701A47C059000A0C43 /* swift-socket-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5244C3901A47C059000A0C43 /* Build configuration list for PBXNativeTarget "swift-socket-example" */;
+			buildPhases = (
+				8F16EBE54D2761AC0BB1023F /* Check Pods Manifest.lock */,
+				5244C36D1A47C059000A0C43 /* Sources */,
+				5244C36E1A47C059000A0C43 /* Frameworks */,
+				5244C36F1A47C059000A0C43 /* Resources */,
+				BB7E784044B2214D15DB8249 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-socket-example";
+			productName = "swift-socket-example";
+			productReference = 5244C3711A47C059000A0C43 /* swift-socket-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5244C3851A47C059000A0C43 /* swift-socket-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5244C3931A47C059000A0C43 /* Build configuration list for PBXNativeTarget "swift-socket-exampleTests" */;
+			buildPhases = (
+				D936C6AB10F1D17ABF295FE5 /* Check Pods Manifest.lock */,
+				5244C3821A47C059000A0C43 /* Sources */,
+				5244C3831A47C059000A0C43 /* Frameworks */,
+				5244C3841A47C059000A0C43 /* Resources */,
+				D2AA793AA1C2F2F59FDC5C1A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5244C3881A47C059000A0C43 /* PBXTargetDependency */,
+			);
+			name = "swift-socket-exampleTests";
+			productName = "swift-socket-exampleTests";
+			productReference = 5244C3861A47C059000A0C43 /* swift-socket-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5244C3691A47C059000A0C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ytakzk.me;
+				TargetAttributes = {
+					5244C3701A47C059000A0C43 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5244C3851A47C059000A0C43 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5244C3701A47C059000A0C43;
+					};
+				};
+			};
+			buildConfigurationList = 5244C36C1A47C059000A0C43 /* Build configuration list for PBXProject "swift-socket-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5244C3681A47C059000A0C43;
+			productRefGroup = 5244C3721A47C059000A0C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5244C3701A47C059000A0C43 /* swift-socket-example */,
+				5244C3851A47C059000A0C43 /* swift-socket-exampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5244C36F1A47C059000A0C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5244C37C1A47C059000A0C43 /* Main.storyboard in Resources */,
+				5244C3811A47C059000A0C43 /* LaunchScreen.xib in Resources */,
+				5244C37E1A47C059000A0C43 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5244C3841A47C059000A0C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F16EBE54D2761AC0BB1023F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7E784044B2214D15DB8249 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-socket-example/Pods-swift-socket-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2AA793AA1C2F2F59FDC5C1A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-socket-exampleTests/Pods-swift-socket-exampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D936C6AB10F1D17ABF295FE5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5244C36D1A47C059000A0C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5244C3791A47C059000A0C43 /* ViewController.swift in Sources */,
+				5238F6B61A495FAF0000A0CA /* MyUtils.swift in Sources */,
+				5244C3771A47C059000A0C43 /* AppDelegate.swift in Sources */,
+				5244C39D1A4827B0000A0C43 /* MessageCell.swift in Sources */,
+				5238F6B31A493B950000A0CA /* SettingsViewController.swift in Sources */,
+				5244C39F1A4828FB000A0C43 /* MessageModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5244C3821A47C059000A0C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5244C38D1A47C059000A0C43 /* swift_socket_exampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5244C3881A47C059000A0C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5244C3701A47C059000A0C43 /* swift-socket-example */;
+			targetProxy = 5244C3871A47C059000A0C43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5244C37A1A47C059000A0C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5244C37B1A47C059000A0C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5244C37F1A47C059000A0C43 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5244C3801A47C059000A0C43 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5244C38E1A47C059000A0C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5244C38F1A47C059000A0C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5244C3911A47C059000A0C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA3626A91371AE73AC028B9 /* Pods-swift-socket-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "swift-socket-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift-socket-example/swift-socket-example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5244C3921A47C059000A0C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989B0079CFDD30029D13E14F /* Pods-swift-socket-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "swift-socket-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift-socket-example/swift-socket-example-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5244C3941A47C059000A0C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA48EAFE4791237B01099D6 /* Pods-swift-socket-exampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-socket-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-socket-example.app/swift-socket-example";
+			};
+			name = Debug;
+		};
+		5244C3951A47C059000A0C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1873111FC67175E7867757F4 /* Pods-swift-socket-exampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-socket-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-socket-example.app/swift-socket-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5244C36C1A47C059000A0C43 /* Build configuration list for PBXProject "swift-socket-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5244C38E1A47C059000A0C43 /* Debug */,
+				5244C38F1A47C059000A0C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5244C3901A47C059000A0C43 /* Build configuration list for PBXNativeTarget "swift-socket-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5244C3911A47C059000A0C43 /* Debug */,
+				5244C3921A47C059000A0C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5244C3931A47C059000A0C43 /* Build configuration list for PBXNativeTarget "swift-socket-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5244C3941A47C059000A0C43 /* Debug */,
+				5244C3951A47C059000A0C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5244C3691A47C059000A0C43 /* Project object */;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ytakzk",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "supervisor ./bin/www"
+  },
+  "dependencies": {
+    "debug": "*",
+    "express": "*",
+    "socket.io": "^1.2.1"
+  },
+  "devDependencies": {
+    "mongoose": "*",
+    "mongodb": "*",
+    "synchronize": "*"
+  }
+}

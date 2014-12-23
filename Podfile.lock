@@ -1,0 +1,10 @@
+PODS:
+  - SIOSocket (0.2.0)
+
+DEPENDENCIES:
+  - SIOSocket (~> 0.2.0)
+
+SPEC CHECKSUMS:
+  SIOSocket: 40ebc9f014b9fec4ec595212faaf6f19cf29d1f2
+
+COCOAPODS: 0.35.0
